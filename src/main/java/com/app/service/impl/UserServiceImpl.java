@@ -52,7 +52,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 
     @Override
     public void delete(long id) {
-        userDao.delete(id);
+        userDao.deleteById(id);
     }
 
     @Override
